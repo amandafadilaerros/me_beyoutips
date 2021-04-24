@@ -1,0 +1,63 @@
+.navbar {
+	<nav class="navbar navbar-expand-lg navbar-light bg-secondary fixed-top">
+	<a class="navbar-brand font-weight-bold text-white" href="#" text>BEYOUTIPS.ID</a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+	</button>
+
+	<div class="collapse navbar-collapse" id="navbarSupportedContent">
+	<div class="container">
+		<ul class="navbar-nav ml-auto mr-4">
+			
+				<a class="nav-link text-white" href="home.php"><b>Beranda </b><span class="sr-only">(current)</span></a>
+			
+			
+				<div class="dropdown">
+				<button class="btn btn-secondary dropdown-toggle text-white" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					<b> Kategori </b> 
+				</button>
+					<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+						<a class="dropdown-item" href="makeup.php">Make Up</a>
+						<a class="dropdown-item" href="alatmakeup.php">Alat Make Up</a>
+						<a class="dropdown-item" href="skincare.php">Skin Care</a>
+						<a class="dropdown-item" href="bodycare.php">Body Care</a>
+					</div>
+				</div>
+			
+			
+		<div class="dropdown">
+			<button class="btn btn-secondary dropdown-toggle text-white" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				<b>Hubungi Kami</b>
+			</button>
+			<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+				<a class="dropdown-item" href="https://www.instagram.com/amandafadilaa?r=nametag">
+				<i class="fab fa-instagram mr-2"></i>Instagram</a>
+				<a class="dropdown-item" href="https://wa.me/qr/U3WDRNB5WV34H1">
+				<i class="fab fa-whatsapp mr-2"></i>WhatsApp</a>
+				<a class="dropdown-item" href="https://m.facebook.com/profile.php?id=100037783147642&ref=content_filter">
+				<i class="fab fa-facebook mr-2"></i>Facebook</a>
+			</div>
+		</div>
+
+		<div class="dropdown">
+			<button class="btn btn-secondary dropdown-toggle text-white" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				<b>Bantuan</b>
+			</button>
+			<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+				<a class="dropdown-item" href="">
+				<i class="fas fa-user mr-2"></i>Info Login</a>
+				<a class="dropdown-item" href="">
+				<i class="fas fa-sign-out-alt mr-2"></i>Logout</a>
+			</div>
+		</div>
+		
+	
+	<form class="form-inline my-2 my-lg-0">
+			<input class="form-control mr-sm-2" type="search" placeholder="Cari Produk ..." aria-label="Search">
+		<button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+	</form>
+</ul>
+</div>
+</div>
+</nav>
+}

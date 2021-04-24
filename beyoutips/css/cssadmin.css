@@ -1,0 +1,11 @@
+.nav-link:hover {
+  background-color: grey;
+}
+.card-body-icon{
+	position: absolute;
+	z-index: 0;
+	top : 0px;
+	right : 8px;
+	opacity: 0.4;
+	font-size: 90px;
+}

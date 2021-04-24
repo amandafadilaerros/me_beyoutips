@@ -1,0 +1,158 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container .bottom{
+    width: 100vw;
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.container .bottom .imgBx{
+    background:linear-gradient(rgba(233, 139, 95, 0.466), rgb(250, 133, 79)), url(../img/bg1.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .bottom{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.skew{
+    position: absolute;
+    bottom: 0%;
+    left: 0;
+    width: 100%;
+    height: 450px;
+    background:rgb(255, 255, 255);
+    transform: skewY(13deg);
+    transform-origin: top left;
+    z-index: 1;
+}
+.container .bottom .card{
+    position: absolute;
+    width: 45vw;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    box-shadow: 0px 6px 30px -10px rgb(143, 140, 140);
+    z-index: 2;
+}
+.container .bottom .card .banner-card{
+    width: 95%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container .bottom .card .banner-card h1{
+    color: rgb(233, 139, 95);
+    font-size: 50px;
+}
+.container .bottom .card .banner-card h3{
+    color: rgb(128, 90, 72);
+}
+.container .bottom .card .form{
+    width: 95%;
+    height: 68%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .bottom .card .form form{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -25px;
+}
+.container .bottom .card .form form .inputBx{
+    width: 95%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.container .bottom .card .form form .inputBx h4{
+    width: 20%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 15px;
+}
+.container .bottom .card .form form .inputBx .mid{
+    width: 5%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .bottom .card .form form .inputBx input{
+    border: none;
+    outline: none;
+}
+.container .bottom .card .form form .inputBx .input-control{
+    width: 85%;
+    height: 30px;
+    border-bottom: 2px solid rgb(233, 139, 95);
+    background-color: none;
+    padding-left: 10px;
+}
+.button{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.button input{
+    width: 200px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(233, 139, 95);
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+}
+.button a{
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(177, 113, 84);
+    margin-top: 10px;
+}
